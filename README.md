@@ -18,6 +18,24 @@ Técnica de optimización: Stochastic Gradient Descent explicada utilizando Ju
       - python -m pip install --upgrade pip
       - python -m pip install jupyter
 
+ ### Ejecutando jupyter notebook
+ Jupyter notebook te permite administrar tu proyecto a traves del browser, para ello debes realizar lo siguiente:
+ 1. Abrir una terminal.
+ 2. Digirse al directorio raiz de tu proyecto jupyter notebook.
+ 3. Escirbir el siguiente comando: jupyter notebook
+ 
+ Imediatmente se levantará el servidor de tu poryecto, seguido se abrirá una pestaña en tu browser con el Notebook Dashboard.
+ En caso que no quieras que esta acción se realice por defecto, para ello debes hacer lo siguiente:
+ 
+ 1. Abrir una terminal.
+ 2. Digirse al directorio raiz de tu proyecto jupyter notebook.
+ 3. Escirbir el siguiente comando: jupyter notebook --no-browser
+ 4. Abrir el el navegador de tu preferencia.
+ 5. En una nueva pestaña pegar lo siguiente: http://localhost:8888/
+ 6. Listo el Notebook Dashboard queda listo para usar.
+ 
+ Para mas detalles acerca de la ejecución puede consultar el siguiente link [Corriendo Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running)
+ 
  ### Paquetes implementados
   - Argparse
   - Scikit-learn
@@ -40,10 +58,3 @@ import sys
 !{sys.executable} -m pip install scipy
 !{sys.executable} -m pip install easydict
 ```
-
-
-
-
- 
- 
- 
